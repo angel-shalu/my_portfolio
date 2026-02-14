@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shalini Kumari | AI & Data Science Developer</title>
+    <meta name="description"
+        content="Portfolio of Shalini Kumari - Full Stack Data Science with AI Developer specializing in Machine Learning, NLP, and Deep Learning.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Background Elements -->
+    <div class="background-globes">
+        <div class="globe globe-1"></div>
+        <div class="globe globe-2"></div>
+        <div class="globe globe-3"></div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar" id="scrollProgress"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo"></a>
+            </div>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="/shalini/assets/shalini_resume.pdf" target="_blank" class="btn-resume">Resume</a>
+            </div>
+
+            <div class="nav-controls">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobileMenu">
+        <!-- Close button inside mobile menu -->
+        <button class="close-menu" id="closeMenu">&times;</button>
+        <a href="#home" class="mobile-link">Home</a>
+        <a href="#projects" class="mobile-link">Projects</a>
+        <a href="#certifications" class="mobile-link">Certifications</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+        <a href="#" class="btn-resume-mobile">Resume</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content fade-up">
+                <span class="greeting">Hello, I'm</span>
+                <h1 class="hero-name">Shalini Kumari</h1>
+                <h2 class="hero-title">Full Stack Data Science with <span class="gradient-text">AI Developer</span></h2>
+
+                <div class="typing-container">
+                    <span class="static-text">I work with </span>
+                    <span class="dynamic-text"></span>
+                </div>
+
+                <p class="hero-description">
+                    Passionate about turning data into intelligent products and deploying real-world AI solutions.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="hero-visual fade-in">
+                <!-- CSS Animated Tech Illustration -->
+                <div class="tech-brain-container">
+                    <div class="brain-core"></div>
+                    <div class="brain-ring ring-1"></div>
+                    <div class="brain-ring ring-2"></div>
+                    <div class="orbiting-particle p1"></div>
+                    <div class="orbiting-particle p2"></div>
+                    <div class="orbiting-particle p3"></div>
+                    <div class="code-fragment cf1">Python</div>
+                    <div class="code-fragment cf2">React</div>
+                    <div class="code-fragment cf3">AI</div>
+                    <div class="code-fragment cf4">SQL</div>
+                    <div class="code-fragment cf5">Cloud</div>
+                </div>
+            </div>
+        </div>
+
+        <a href="#about" class="scroll-down">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding">
+        <div class="container about-container">
+            <div class="section-header fade-up">
+                <span class="section-subtitle">Who I Am</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+
+            <div class="about-content-wrapper">
+                <div class="about-image fade-right">
+                    <div class="image-card">
+                        <div class="profile-placeholder">
+                            <span><img src="/shalini/assets/photo.png" alt=""></span>
+                        </div>
+                        <div class="image-glow"></div>
+                    </div>
+                </div>
+
+                <div class="about-text fade-left">
+                    <p class="about-bio">
+                        Full Stack Data Science AI Developer passionate about intelligent AI products. Skilled in
+                        Python, SQL, ML frameworks, LLMs, NLP, Computer Vision, and MLOps.
+                    </p>
+
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h3>Programming</h3>
+                            <div class="tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">SQL</span>
+                                <span class="tag">DSA</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3>ML Libraries</h3>
+                            <div class="tags">
+                                <span class="tag">NumPy</span>
+                                <span class="tag">Pandas</span>
+                                <span class="tag">Scikit-learn</span>
+                                <span class="tag">TensorFlow</span>
+                                <span class="tag">PyTorch</span>
+                                <span class="tag">XGBoost</span>
+                                <span class="tag">LightGBM</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3>AI Technologies</h3>
+                            <div class="tags">
+                                <span class="tag">Machine Learning</span>
+                                <span class="tag">Deep Learning</span>
+                                <span class="tag">NLP</span>
+                                <span class="tag">Generative AI</span>
+                                <span class="tag">LLMs</span>
+                                <span class="tag">AI Agents</span>
+                                <span class="tag">Computer Vision</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3>Tools</h3>
+                            <div class="tags">
+                                <span class="tag">GitHub</span>
+                                <span class="tag">Jupyter</span>
+                                <span class="tag">VS Code</span>
+                                <span class="tag">Power BI</span>
+                                <span class="tag">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section section-padding">
+        <div class="container">
+            <div class="section-header fade-up">
+                <span class="section-subtitle">My Journey</span>
+                <h2 class="section-title">Experience</h2>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-line"></div>
+
+                <div class="timeline-item fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">July 2025 – Sept 2025</div>
+                    <div class="timeline-content glass-card">
+                        <h3>Data Science Intern (Virtual)</h3>
+                        <h4>Naman Digital Pvt. Ltd.</h4>
+                        <ul class="experience-list">
+                            <li>Data preprocessing & cleaning</li>
+                            <li>ML model building (Regression & classification)</li>
+                            <li>Interactive dashboards creation</li>
+                            <li>Remote collaboration with cross-functional teams</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Placeholder for future experience -->
+                <div class="timeline-item fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Present</div>
+                    <div class="timeline-content glass-card">
+                        <h3>Open to Opportunities</h3>
+                        <h4>Seeking Full-time Roles</h4>
+                        <p>Ready to leverage AI/ML skills in a challenging environment.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section section-padding">
+        <div class="container">
+            <div class="section-header fade-up">
+                <span class="section-subtitle">What I've Built</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-card fade-up" data-tilt>
+                    <div class="project-content">
+                        <h3>Student Mark Prediction</h3>
+                        <p class="project-tech">Python • Flask • Scikit-learn</p>
+                        <p class="project-desc">Real-time ML regression model architecture for predicting student
+                            performance based on historical data.</p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> ML Regression Model</li>
+                            <li><i class="fas fa-check"></i> Real-time predictions</li>
+                            <li><i class="fas fa-check"></i> Clean architecture</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="#" class="btn-sm btn-primary">Live Demo</a>
+                            <a href="#" class="btn-sm btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card fade-up" data-tilt>
+                    <div class="project-content">
+                        <h3>OmniVisionX</h3>
+                        <p class="project-tech">YOLOv8 • OpenCV • Streamlit</p>
+                        <p class="project-desc">Advanced real-time object detection system optimized for low latency and
+                            high accuracy.</p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> 90%+ Accuracy</li>
+                            <li><i class="fas fa-check"></i> Real-time detection</li>
+                            <li><i class="fas fa-check"></i> 35% Reduced Latency</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="#" class="btn-sm btn-primary">Live Demo</a>
+                            <a href="#" class="btn-sm btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-card fade-up" data-tilt>
+                    <div class="project-content">
+                        <h3>Statistics Learning App</h3>
+                        <p class="project-tech">Streamlit • Pandas</p>
+                        <p class="project-desc">Interactive application for learning statistical concepts through
+                            dynamic visualizations and data uploads.</p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> Z-Test, T-Test, Chi-Square</li>
+                            <li><i class="fas fa-check"></i> CSV Upload Support</li>
+                            <li><i class="fas fa-check"></i> Dynamic Charts</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="#" class="btn-sm btn-primary">Live Demo</a>
+                            <a href="#" class="btn-sm btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications-section section-padding">
+        <div class="container">
+            <div class="section-header fade-up">
+                <span class="section-subtitle">Continuous Learning</span>
+                <h2 class="section-title">Certifications</h2>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Certification 1 -->
+                <div class="glass-card fade-up" data-tilt>
+                    <div class="project-content">
+                        <div class="cert-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>Full Stack Data Science with AI</h3>
+                        <p class="cert-org">NareshIT - Hyderabad</p>
+                        <p class="cert-date">Jan 2025 – Present</p>
+                        <p class="cert-desc">Comprehensive program focused on Data Science, Machine Learning, Deep
+                            Learning, and applied AI using Python.</p>
+                    </div>
+                </div>
+
+                <!-- Certification 2 -->
+                <div class="glass-card fade-up" data-tilt>
+                    <div class="project-content">
+                        <div class="cert-icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <h3>Data Structures & Algorithms</h3>
+                        <p class="cert-org">Comprehensive DSA Training</p>
+                        <p class="cert-date">June 2025 - Dec 2025 (Expected)</p>
+                        <p class="cert-desc">In-depth offline training on solving complex algorithmic problems, data
+                            structures, and optimizing code efficiency.</p>
+                    </div>
+                </div>
+
+                <!-- Certification 3 -->
+                <div class="glass-card fade-up" data-tilt>
+                    <div class="project-content">
+                        <div class="cert-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <h3>Basics of Python</h3>
+                        <p class="cert-org">INFOSYS</p>
+                        <p class="cert-date">Completed</p>
+                        <p class="cert-desc">Certification covering fundamental programming concepts, object-oriented
+                            programming, and Python application development.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding">
+        <div class="container contact-container">
+            <div class="section-header fade-up">
+                <span class="section-subtitle">Get In Touch</span>
+                <h2 class="section-title">Contact Me</h2>
+            </div>
+
+            <div class="contact-wrapper glass-card fade-up">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm currently looking for new opportunities. Whether you have a question or just want to say hi,
+                        I'll try my best to get back to you!</p>
+
+                    <div class="contact-detail">
+                        <i class="fas fa-envelope"></i>
+                        <span>shalinikumari8789@gmail.com</span>
+                    </div>
+                    <div class="contact-detail">
+                        <i class="fas fa-phone"></i>
+                        <span>9508708003</span>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com" target="_blank" aria-label="GitHub"><i
+                                class="fab fa-github"></i></a>
+                        <a href="mailto:shalinikumari8789@gmail.com" aria-label="Email"><i
+                                class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required placeholder="What's your name?">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required placeholder="Your email address">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" required
+                            placeholder="Hello, I'd like to talk about..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send Message <i
+                            class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Shalini Kumari. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-glow"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
